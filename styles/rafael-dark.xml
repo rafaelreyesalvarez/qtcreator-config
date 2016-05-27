@@ -4,9 +4,10 @@
   <style name="Link" foreground="#88cee7" italic="true"/>
   <style name="Selection" background="#415d77"/>
   <style name="LineNumber" foreground="#616161"/>
-  <style name="SearchResult" foreground="#000000" background="#fffb7a" bold="true"/>
+  <style name="SearchResult" background="#4e4a00" bold="true"/>
   <style name="SearchScope" foreground="#000000" background="#7a8c8c"/>
   <style name="Parentheses" foreground="#000000" background="#4da5c9"/>
+  <style name="ParenthesesMismatch" foreground="#000000" background="#ff00ff"/>
   <style name="CurrentLine" background="#303737" bold="true"/>
   <style name="CurrentLineNumber" foreground="#e5e4e1"/>
   <style name="Occurrences" foreground="#000000" background="#b4b4b4"/>
@@ -41,14 +42,15 @@
   <style name="QmlStateName" foreground="#e5e4e1" italic="true"/>
   <style name="Binding" foreground="#e5e4e1"/>
   <style name="DisabledCode" foreground="#808080"/>
-  <style name="AddedLine" foreground="#3875d7"/>
+  <style name="AddedLine" foreground="#00c52e"/>
   <style name="RemovedLine" foreground="#ff0000"/>
-  <style name="DiffFile" foreground="#a6e22e"/>
-  <style name="DiffLocation" foreground="#2572b8"/>
-  <style name="DiffFileLine" background="#ffff00"/>
-  <style name="DiffContextLine" background="#afd7e7"/>
-  <style name="DiffSourceLine" background="#ffdfdf"/>
-  <style name="DiffSourceChar" background="#ffafaf"/>
-  <style name="DiffDestLine" background="#dfffdf"/>
-  <style name="DiffDestChar" background="#afffaf"/>
+  <style name="DiffFile" foreground="#f7fe00"/>
+  <style name="DiffLocation" foreground="#1cbefe"/>
+  <style name="DiffFileLine" foreground="#f8ff00"/>
+  <style name="DiffContextLine" foreground="#1cbefe"/>
+  <style name="DiffSourceLine" background="#404040"/>
+  <style name="DiffSourceChar" foreground="#ff1c00" background="#404040"/>
+  <style name="DiffDestLine" background="#404040"/>
+  <style name="DiffDestChar" foreground="#00c52e" background="#404040"/>
+  <style name="LogChangeLine" foreground="#00b7ff"/>
 </style-scheme>
